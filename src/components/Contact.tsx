@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, Terminal, ArrowRight, CheckCircle2, Loader2, Wifi, User, Mail, MessageSquare, ShieldAlert, Cpu } from "lucide-react";
+import { Send, Terminal, ArrowRight, CheckCircle2, Loader2, Wifi, User, Mail, MessageSquare, ShieldAlert } from "lucide-react";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });

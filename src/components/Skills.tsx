@@ -76,7 +76,7 @@ const colorClasses: Record<string, { text: string; border: string; bg: string; g
   },
 };
 
-const SkillTile = ({ skill, i }: { skill: any; i: number }) => {
+const SkillTile = ({ skill }: { skill: any; i: number }) => {
   const theme = colorClasses[skill.color] || colorClasses.emerald;
 
   return (

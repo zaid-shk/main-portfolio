@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import type { RootState } from "@/store";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowUpRight, Terminal, X, Code, ShieldCheck, Eye, Star } from "lucide-react";
+import { ArrowUpRight, Terminal, X, Code } from "lucide-react";
 import { GsapReveal } from "./GsapReveal";
 import { GithubIcon } from "./SocialIcons";
 import { cn } from "@/lib/utils";
@@ -74,7 +74,7 @@ const VisualShowcase = ({ category, isHovered }: { category: string; isHovered: 
   );
 };
 
-const ProjectCard = ({ project, i, onClick }: { project: any; i: number; onClick: () => void }) => {
+const ProjectCard = ({ project, onClick }: { project: any; i: number; onClick: () => void }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (

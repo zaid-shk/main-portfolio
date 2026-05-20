@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { ArrowUp, Cpu, Globe } from "lucide-react";
 
 export const Footer = () => {
